@@ -3,7 +3,7 @@
 
 
 .font{
-  margin-left: 40%;
+  margin-left: 41%;
   margin-top: 5%;
   font-size: 30px;
   font-weight: 900;
@@ -309,3 +309,10 @@ input:checked ~ input:checked ~ input:checked ~ input:checked ~ input:checked ~ 
 #cell-2-o:checked ~ #cell-4-o:checked ~ #cell-6-o:checked ~ #end #message::before {
   content: "Player 2 won!";
 }
+
+@media screen and (max-width: 768px) {
+  .font{
+    margin-left: 32%;
+  }
+}
+
